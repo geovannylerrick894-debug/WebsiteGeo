@@ -20,10 +20,11 @@
   margin: auto;
   overflow: hidden;
 }
-
-.logo {
-  margin-right: 500px;
+.img {
+  width: 50px;
+  height: 50px;
 }
+
 header {
   background: #403939;
   color: rgb(255, 255, 255);
@@ -32,7 +33,7 @@ header {
   border-bottom: rgb(255, 255, 255) 3px solid;
 }
 
-header .kontainer {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,12 +99,6 @@ section h3 {
   justify-content: space-between;
   gap: 20px;
   text-align: center;
-}
-.img {
-  height: 50px;
-  width: 60px;
-  display: flex;
-  padding-left: 10px;
 }
 .egan {
   height: 350px;
