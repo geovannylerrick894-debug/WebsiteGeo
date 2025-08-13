@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1, 6;
+  background-color: #c8a885;
+  color: #c8a885;
+}
+
+.main-container {
+  min-width: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.logo {
+  margin-right: 500px;
+}
+header {
+  background: #403939;
+  color: rgb(255, 255, 255);
+  padding-top: 30px;
+  min-height: 90px;
+  border-bottom: rgb(255, 255, 255) 3px solid;
+}
+
+header .kontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background: #c8a885;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: #333;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+section {
+  padding: 60px 0;
+  border-bottom: #ccc 1px solid;
+}
+
+section h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.layanan-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+}
+.img {
+  height: 50px;
+  width: 60px;
+  display: flex;
+  padding-left: 10px;
+}
+.egan {
+  height: 350px;
+  width: 250px;
+  padding-top: 20px;
+}
+.fadlan {
+  height: 350px;
+  width: 250px;
+  padding-top: 20px;
+}
+.dennis {
+  height: 350px;
+  width: 250px;
+  padding-top: 20px;
+}
+.layanan-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav ul {
+    padding-top: 10px;
+  }
+
+  header li {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .layanan-list {
+    flex-direction: column;
+  }
+}
+
+.map-wrap {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.map-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #403939;
+  color: white;
+  padding: 30px;
+}
